@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NaviWPFApp.ViewModels.Common;
 
-namespace NaviWPFApp.ViewModels.Pages
+namespace NaviWPFApp.ViewModels
 {
     public class FirstPageViewModel : MyObservableObject
     {
@@ -17,7 +17,7 @@ namespace NaviWPFApp.ViewModels.Pages
             this.navigationService = navigationService;
         }
         
-        public MyCommand Go2
+        public MyCommand GoToSecondPageCommand
         {
             get { return new MyCommand(x => navigationService.Navigate("SecondPage")); }
         }

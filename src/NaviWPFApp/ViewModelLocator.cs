@@ -1,6 +1,6 @@
 ﻿namespace NaviWPFApp
 {
-    using NaviWPFApp.ViewModels.Pages;
+    using ViewModels;
 
     public class ViewModelLocator
     {

@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NaviWPFApp.Views.Pages
+namespace NaviWPFApp.Views
 {
     /// <summary>
-    /// Interaction logic for SecondPage.xaml
+    /// Interaction logic for FirstPage.xaml
     /// </summary>
-    public partial class SecondPage : Page
+    public partial class FirstPage : Page
     {
-        public SecondPage()
+        public FirstPage()
         {
             InitializeComponent();
         }

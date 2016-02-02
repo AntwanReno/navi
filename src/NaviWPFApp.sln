@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviWPFApp", "NaviWPFApp\Na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviWPFApp.ViewModels", "NaviWPFApp.ViewModels\NaviWPFApp.ViewModels.csproj", "{D3B55B87-845D-4E52-87E6-3AC15AD9211C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaviWPFApp.Domain", "NaviWPFApp.Domain\NaviWPFApp.Domain.csproj", "{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D3B55B87-845D-4E52-87E6-3AC15AD9211C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B55B87-845D-4E52-87E6-3AC15AD9211C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B55B87-845D-4E52-87E6-3AC15AD9211C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

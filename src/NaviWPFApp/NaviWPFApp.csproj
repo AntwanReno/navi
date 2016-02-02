@@ -65,14 +65,11 @@
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pages\FirstPage.xaml.cs">
+    <Compile Include="Views\FirstPage.xaml.cs">
       <DependentUpon>FirstPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pages\SecondPage.xaml.cs">
+    <Compile Include="Views\SecondPage.xaml.cs">
       <DependentUpon>SecondPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\UserControls\FooUserControl.xaml.cs">
-      <DependentUpon>FooUserControl.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -107,20 +104,20 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Pages\FirstPage.xaml">
+    <Page Include="Views\FirstPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Pages\SecondPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\UserControls\FooUserControl.xaml">
+    <Page Include="Views\SecondPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NaviWPFApp.Domain\NaviWPFApp.Domain.csproj">
+      <Project>{1ceccc05-2cc3-496c-9fe0-662f51df06fb}</Project>
+      <Name>NaviWPFApp.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NaviWPFApp.ViewModels\NaviWPFApp.ViewModels.csproj">
       <Project>{d3b55b87-845d-4e52-87e6-3ac15ad9211c}</Project>
       <Name>NaviWPFApp.ViewModels</Name>

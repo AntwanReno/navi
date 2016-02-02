@@ -1,8 +1,9 @@
-﻿namespace NaviWPFApp
+﻿using NaviWPFApp.Domain;
+
+namespace NaviWPFApp
 {
     using System.Windows;
     using NaviWPFApp.Views;
-    using NaviWPFApp.Views.Pages;
 
     public partial class App : Application
     {
@@ -11,6 +12,8 @@
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
+
+            BusinessLogic businessLogic = new BusinessLogic();
 
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();

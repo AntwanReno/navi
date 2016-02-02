@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3B55B87-845D-4E52-87E6-3AC15AD9211C}</ProjectGuid>
+    <ProjectGuid>{1CECCC05-2CC3-496C-9FE0-662F51DF06FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NaviWPFApp.ViewModels</RootNamespace>
-    <AssemblyName>NaviWPFApp.ViewModels</AssemblyName>
+    <RootNamespace>NaviWPFApp.Domain</RootNamespace>
+    <AssemblyName>NaviWPFApp.Domain</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,18 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Common\INavigationService.cs" />
-    <Compile Include="Common\MyCommand.cs" />
-    <Compile Include="FirstPageViewModel.cs" />
-    <Compile Include="SecondPageViewModel.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Common\MyObservableObject.cs" />
+    <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NaviWPFApp.Domain\NaviWPFApp.Domain.csproj">
-      <Project>{1ceccc05-2cc3-496c-9fe0-662f51df06fb}</Project>
-      <Name>NaviWPFApp.Domain</Name>
-    </ProjectReference>
+    <Compile Include="BusinessLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
