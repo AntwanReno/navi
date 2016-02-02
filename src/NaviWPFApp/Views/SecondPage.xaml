@@ -7,7 +7,8 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="SecondPage"
       DataContext="{Binding Path=SecondPageViewModel, Source={StaticResource ViewModelLocator}}">
-    <Grid>
+    <StackPanel Margin="0, 100, 0, 0">
+        <Button Command="{Binding CountSomethingCommand}" Content="Count something" Height="30" />
         <Button Command="{Binding BackToFirstPageCommand}" Content="Go back to page 1" Height="30" />
-    </Grid>
+    </StackPanel>
 </Page>
